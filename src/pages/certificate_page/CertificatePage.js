@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ucsc from "../../images/ucsc.png";
-import ufm from "../../images/ufm.png";
-import nh from "../../images/nh.jpg";
+import ibm from "../../images/ibm.svg";
+import nptel from "../../images/nptel.png"
+import udemy from "../../images/udemy.jpg";
+import infosys from "../../images/infosys.jpg";
+import cisco from "../../images/cisco.jpg";
 import nactar from "../../images/nactar.jpg";
 import ccna from "../../images/CCNA_Certificate.jpg";
-import cbta from "../../images/CBT&A.pdf";
+// import cbta from "../../images/CBT&A.pdf";
 import skill from "../../images/skill.png";
 import c from "../../images/c.jpg";
 import iq from "../../images/IQ_Test.jpg";
@@ -41,7 +43,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href="https://www.hackerrank.com/certificates/3573ea1a35bb"
+                                  href="https://coursera.org/share/f34a9049cddac39bcb2b64c8b081d15c"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -53,8 +55,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={ucsc}
-                                        alt={ucsc}
+                                        src={ibm}
+                                        alt={ibm}
                                       />
                                     }
                                   </div>
@@ -73,8 +75,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Problem Solving Basic : Programming
-                                  Fundamentals
+                                  IBM Full Stack Software Developer
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -83,7 +84,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - HackerRank
+                                  - IBM
                                 </h3>
                               </div>
                             </div>
@@ -94,7 +95,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={cbta}
+                                  href="https://drive.google.com/file/d/1NHlz5ZgMmWVcNNEYP1ALwYFEL4j0ECTD/view?usp=sharing"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -106,8 +107,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={ufm}
-                                        alt={ufm}
+                                        src={nptel}
+                                        alt={nptel}
                                       />
                                     }
                                   </div>
@@ -126,8 +127,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Basic Computer Application : IT Support
-                                  Technician level-1
+                                  Data Analytics with Python
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -136,7 +136,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - Bangladesh Technical Education Board
+                                  - IIT Roorkee
                                 </h3>
                               </div>
                             </div>
@@ -147,7 +147,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href="https://www.hackerrank.com/certificates/af66a6615aad"
+                                  href="https://drive.google.com/file/d/1pkXptLpBgGYGaXJLw7ba007NVSq8-lz9/view?usp=sharing"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -159,8 +159,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={ucsc}
-                                        alt={ucsc}
+                                        src={cisco}
+                                        alt={cisco}
                                       />
                                     }
                                   </div>
@@ -179,7 +179,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Python Basic : Programming Fundamentals
+                                  Networking Essentials
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -188,7 +188,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - HackerRank
+                                  - Cisco Networking Academy
                                 </h3>
                               </div>
                             </div>
@@ -199,7 +199,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={ccna}
+                                  href="https://drive.google.com/file/d/1qHDBGdHD6COsJYdcfH7igaVtMdVBfw27/view?usp=sharing"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -211,8 +211,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={nh}
-                                        alt={nh}
+                                        src={infosys}
+                                        alt={infosys}
                                       />
                                     }
                                   </div>
@@ -231,8 +231,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  CCNA(Cisco Certified Network Associate) :
-                                  Basic Networking for Everyone.
+                                  Python For Beginners: Learn Python From Scratch
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -241,8 +240,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - New Horizons Computer Learning Centers,
-                                  Dhaka.
+                                  - Infosys 
                                 </h3>
                               </div>
                             </div>
@@ -253,7 +251,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={c}
+                                  href="https://drive.google.com/file/d/10Vt_VxilWIzd9VqinSKHzgwZy4R56gfA/view?usp=sharing"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -265,8 +263,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={nactar}
-                                        alt={nactar}
+                                        src={udemy}
+                                        alt={udemy}
                                       />
                                     }
                                   </div>
@@ -285,7 +283,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  C Programming Basic : Programming Fundamentals
+                                  The Modern JavaScript For Beginners
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -294,8 +292,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - National Academy for Computer Training and
-                                  Research (NACTAR), Bogura.
+                                  - Udemy
                                 </h3>
                               </div>
                             </div>
@@ -306,7 +303,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={graphics}
+                                  href="https://drive.google.com/file/d/1Yoa0cQJ5fU-flK7U5P93gfvnIlv0uipg/view?usp=sharing"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -318,8 +315,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={nactar}
-                                        alt={nactar}
+                                        src={infosys}
+                                        alt={infosys}
                                       />
                                     }
                                   </div>
@@ -338,7 +335,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Graphics Design Basic : Creative Fundamentals
+                                  Java For Beginners: Step-By-Step Hand On Guide To Java
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -347,425 +344,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - National Academy for Computer Training and
-                                  Research (NACTAR), Bogura.
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={4}>
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/microsoft-powerpoint-GV5i0zKW"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={skill}
-                                        alt={skill}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  Certified for Microsoft PowerPoint
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  - Skill Jobs.
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={4}>
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/microsoft-windows-BR3rajeh"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={skill}
-                                        alt={skill}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  Certified for Microsoft Windows
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  - Skill Jobs.
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={4}>
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/microsoft-excel-D96YgPpO"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={skill}
-                                        alt={skill}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  Certified for Microsoft Excel
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  - Skill Jobs.
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={4}>
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href="https://skill.jobs/career-doctor-report/?u=f5eb57cc-6b6b-4277-a765-e5df63296aed"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={skill}
-                                        alt={skill}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  Career Doctor Report
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  - Skill Jobs.
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={4} className="col-sm-12 col-md4">
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href="https://www.hackerrank.com/certificates/9cb4b6c060a8"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={ucsc}
-                                        alt={ucsc}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  React (Basic) Certificate : Programming
-                                  Fundamentals
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  - HackerRank
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={4} className="col-sm-12 col-md4">
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href={iq}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={iq}
-                                        alt={iq}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  IQ - Test
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  US-Bangla Express Ltd.
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={4} className="col-sm-12 col-md4">
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href={computer}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={computer}
-                                        alt={computer}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  Computer Knowledge Test
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  US-Bangla Express Ltd.
-                                </h3>
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                      <Col md={4}>
-                          <Fade bottom duration={2000} distance="20px">
-                            <div className="cert-card">
-                              <div className="content">
-                                <a
-                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/client-relationship-executive-V41jHg6g"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <div className="content-overlay"></div>
-                                  <div
-                                    className="cert-header"
-                                    style={{ backgroundColor: "white" }}
-                                  >
-                                    {
-                                      <img
-                                        className="logo_img"
-                                        src={skill}
-                                        alt={skill}
-                                      />
-                                    }
-                                  </div>
-                                  <div className="content-details fadeIn-top">
-                                    <h3
-                                      className="content-title"
-                                      style={{ color: "black" }}
-                                    >
-                                      Certificate
-                                    </h3>
-                                  </div>
-                                </a>
-                              </div>
-                              <div className="cert-body">
-                                <h2
-                                  className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
-                                >
-                                  Certified for Client Relationship Executive
-                                </h2>
-                                <h3
-                                  className="cert-body-subtitle"
-                                  style={{
-                                    color: "#eb90ff",
-                                    marginBottom: "0px",
-                                  }}
-                                >
-                                  - Skill Jobs.
+                                  - Infosys
                                 </h3>
                               </div>
                             </div>

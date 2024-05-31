@@ -16,6 +16,8 @@ import {
   DiJavascript1,
   DiMysql,
   DiNodejs,
+  DiExtjs,
+  DiMongodb,
 } from "react-icons/di";
 import Flip from "react-reveal/Flip";
 
@@ -51,7 +53,7 @@ function TechnicalJourney() {
           icon={<ComputerIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            C PROGRAMMING LANGUAGE
+            C
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -63,7 +65,7 @@ function TechnicalJourney() {
           icon={<ComputerIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            C++ PROGRAMMING LANGUAGE
+            C++
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -122,9 +124,9 @@ function TechnicalJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiPhp />}
+          icon={<DiMongodb />}
         >
-          <h3 className="vertical-timeline-element-title">PHP</h3>
+          <h3 className="vertical-timeline-element-title">MongoDB</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -154,7 +156,18 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiReact />}
         >
-          <h3 className="vertical-timeline-element-title">REACT</h3>
+          <h3 className="vertical-timeline-element-title">REACT JS</h3>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<DiReact />}
+        >
+          <h3 className="vertical-timeline-element-title">EXPRESS JS</h3>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

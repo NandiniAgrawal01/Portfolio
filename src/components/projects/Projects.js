@@ -2,10 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
+// import nyc from "../../images/nyc.png";
+import bb from "../../images/bb.png";
 import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+import pp from "../../images/pp.png";
+import fy from "..//../images/fy.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -36,77 +37,11 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
-                    </h5>
-                    <img src={nyc} alt={nyc} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    HTML, CSS, JavaScript
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                      Swasthya Samrat
                     </h5>
                     <img src={hd} alt={hd} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
-                        }
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -129,11 +64,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                      It addresses issues like fragmented care and limited accessibility, prevalent by harnessing AI to offer personalized virtual doctor services. 
+                      Our platform streamlines care delivery, ensuring accurate diagnoses and personalized treatment plans.  
+                      With Swasthya Samrat, we're revolutionizing healthcare, making it accessible, efficient, and user-centric. 
                     </p>
                   </h6>
                   <div
@@ -144,7 +77,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    Android, Python, ML, AI
                   </div>
                 </div>
               </Fade>
@@ -161,13 +94,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      Food yatri
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={fy} alt={fy} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://github.com/NandiniAgrawal01/Food_Yatri"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -191,11 +124,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                      "FOOD YATRI" is designed for food enthusiasts to explore and discover street food gems as well as renowned restaurants.
+The website providing users with profiles of famous food vloggers from Instagram which include a curated list of places these vloggers have visited, making it convenient for followers to find food destinations
+for their next outing.
                     </p>
                   </h6>
                   <div
@@ -206,7 +137,67 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    HTML, CSS, JS, ReactJS
+                  </div>
+                </div>
+              </Fade>
+            </Col>
+            <Col md={3}>
+              <Fade bottom>
+                <div
+                  key={1}
+                  className="singleProject"
+                  style={{
+                    backgroundColor: "rgb(142 70 186 / 31%)",
+                    border: "1px solid",
+                  }}
+                >
+                  <div className="projectContent">
+                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                      Bite Buzz
+                    </h5>
+                    <img src={bb} alt={bb} />
+                    <div className="project--showcaseBtn">
+                      <a
+                        href={
+                          "https://github.com/Apoorva-Dhokai/BiteBuzz"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`code`}
+                      >
+                        <FaCode
+                          id={`code`}
+                          className={"icon"}
+                          aria-label="Code"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <h6>
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "#fbd9ad",
+                        color: "#b061df",
+                        fontWeight: 600,
+                      }}
+                    >
+                      Discover culinary delights from the comfort of your home with our food delivery app. 
+                      Browse a wide selection of local restaurants, order your favorite dishes, and track your delivery in real-time. 
+                      With seamless payment options and exclusive deals, satisfying your cravings has never been easier. 
+                    </p>
+                  </h6>
+                  <div
+                    className="project--lang"
+                    style={{
+                      background: "#fbd9ad",
+                      color: "#b061df",
+                      fontWeight: 600,
+                    }}
+                  >
+                    HTML, CSS, JS, ReactJS, NodeJS, MongoDB, Typescript
                   </div>
                 </div>
               </Fade>
@@ -229,7 +220,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://github.com/NandiniAgrawal01/Portfolio"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -266,7 +257,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    HTML, CSS, React, JavaScript, Bootstrap
                   </div>
                 </div>
               </Fade>

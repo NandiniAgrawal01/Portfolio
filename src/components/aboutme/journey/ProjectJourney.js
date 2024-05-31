@@ -43,8 +43,33 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Shoppy Ecommerce Website
+            Swasthya Samrat
           </h3>
+          
+          <p>In today's healthcare landscape, challenges like fragmented care and limited accessibility are prevalent. Swasthya Samrat addresses
+these issues by harnessing AI technology to offer personalized virtual doctor services. Our platform streamlines care delivery,
+ensuring accurate diagnoses and personalized treatment plans. Through features like appointment scheduling and medication
+reminders, we empower users to take control of their health journey conveniently. With Swasthya Samrat, we're revolutionizing
+healthcare, making it accessible, efficient, and user-centric. Join us in shaping the future of healthcare with technology and
+compassion at its core.
+</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad", textDecoration: "None" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<JavascriptIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Food Yatri
+          </h3>
+          
+          <p>"FOOD YATRI" is a platform designed for food enthusiasts to explore and discover street food gems as well as renowned restaurants.
+The website serves as a hub for culinary adventures, providing users with profiles of famous food vloggers from Instagram. These
+profiles include a curated list of places these vloggers have visited, making it convenient for followers to find specific food destinations
+for their next outing.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -55,8 +80,10 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Amazing Meal System
+            Bite Buzz
           </h3>
+          
+          <p>Discover culinary delights from the comfort of your home with our food delivery app. Browse a wide selection of local restaurants, order your favorite dishes, and track your delivery in real-time. With seamless payment options and exclusive deals, satisfying your cravings has never been easier. Enjoy fast, reliable service and delicious meals delivered right to your doorstep.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -67,8 +94,13 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Academia Learning Website
+            Spam Alert System
           </h3>
+          <p>The "Spam Alert System" detects and filters unsolicited, irrelevant, or malicious messages across various communication platforms. It
+employs advanced algorithms to analyze URL, Gmail content , SMS content and user feedback to accurately identify spam. The
+system continuously evolves through machine learning, adapting to new spamming techniques and patterns. Users can also
+manually flag messages as spam to enhance system accuracy.
+</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -81,103 +113,8 @@ function ProjectJourney() {
           <h3 className="vertical-timeline-element-title">
             Personal Portfolio
           </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Online Payroll management System
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<HtmlIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            New Year CountDown
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CodeIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Heart Disease Prediction
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Dual Mode Calendar
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Dual Mode Calculator
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Digital Clock
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<JavascriptIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Age Calculator
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CodeIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Student Information Management System
-          </h3>
-        </VerticalTimelineElement>
+          
+        </VerticalTimelineElement> 
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}

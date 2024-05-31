@@ -2,9 +2,9 @@ import React from "react";
 import { FaHackerrank } from "react-icons/fa";
 import {
   SiLeetcode,
-  SiHackerearth,
   SiCodechef,
   SiCodeforces,
+  SiHackerrank,
 } from "react-icons/si";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
@@ -14,25 +14,13 @@ export default function Ranking() {
   return (
     <div className="mt-4">
       <Zoom left cascade>
-        <h1>See my rank</h1>
+        <h1>Coding Profiles</h1>
       </Zoom>
       <Container className="mt-5">
         <Row className="g-5">
           <Col md={3}>
             <a
-              href="https://www.hackerrank.com/MD_MAFUJUL_HASAN"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <FaHackerrank />
-              </Zoom>
-            </a>
-          </Col>
-          <Col md={3}>
-            <a
-              href="https://leetcode.com/mhtonmoy13/"
+              href="https://leetcode.com/u/Nandini_Agrawal01/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -44,19 +32,19 @@ export default function Ranking() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.hackerearth.com/@mdtonmoy13.mt"
+              href="https://www.hackerrank.com/profile/nandaniagrawal88"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
             >
               <Zoom cascade>
-                <SiHackerearth />
+                <SiHackerrank />
               </Zoom>
             </a>
           </Col>
           <Col md={3}>
             <a
-              href="https://www.codechef.com/users/mdtonmoy13mt"
+              href="https://www.codechef.com/users/nandaniagrawal"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -68,7 +56,7 @@ export default function Ranking() {
           </Col>
           <Col md={3}>
             <a
-              href="https://codeforces.com/profile/md_mafujul_hasan"
+              href="https://codeforces.com/profile/nandaniagrawal23"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"

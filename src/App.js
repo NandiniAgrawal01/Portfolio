@@ -17,7 +17,7 @@ import Ranking from "./components/aboutme/ranking/Ranking";
 import EducationJourney from "./components/aboutme/journey/EducationJourney";
 import ExperienceJourney from "./components/aboutme/journey/ExperienceJourney";
 import CertificatePage from "./pages/certificate_page/CertificatePage";
-import PersonalSkill from "./components/aboutme/skills/PersonalSkill";
+// import PersonalSkill from "./components/aboutme/skills/PersonalSkill";
 import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";
 import ComingSoon from "./pages/comingsoon_page/comingsoon";
 import Notfound from "./pages/blogs_page/notfound";
@@ -25,7 +25,7 @@ import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
 // import Zoom from 'react-reveal/Zoom';
-import Toolkit from "./components/aboutme/skills/Toolkit";
+// import Toolkit from "./components/aboutme/skills/Toolkit";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -46,7 +46,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}>
             <Route path="/" element={<About />}></Route>
-            <Route path="personalskill" element={<PersonalSkill />} />
             <Route path="technicalskill" element={<TechnicalSkill />} />
             <Route path="technicaljourney" element={<TechnicalJourney />} />
             <Route path="projectjourney" element={<ProjectJourney />} />
@@ -60,7 +59,6 @@ function App() {
             ></Route>
             <Route path="ranking" element={<Ranking />}></Route>
             <Route path="socialmedia" element={<SocialMedia />}></Route>
-            <Route path="toolkit" element={<Toolkit />}></Route>
           </Route>
           <Route path="/projectspage" element={<ProjectPage />} />
           <Route path="/certificatepage" element={<CertificatePage />} />

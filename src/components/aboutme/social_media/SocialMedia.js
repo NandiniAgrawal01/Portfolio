@@ -4,6 +4,7 @@ import {
   AiFillFacebook,
   AiFillGithub,
   AiFillLinkedin,
+  AiFillTwitterSquare,
 } from "react-icons/ai";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
@@ -19,7 +20,7 @@ export default function SocialMedia() {
         <Row className="g-5">
           <Col md={3}>
             <a
-              href="https://www.instagram.com/_md_mafujul_hasan_/"
+              href="https://www.instagram.com/n.pvt23/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -31,19 +32,19 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.facebook.com/mh.tonmoy.13"
+              href="https://x.com/NandaniAgr55949"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
             >
               <Zoom cascade>
-                <AiFillFacebook />
+                <AiFillTwitterSquare />
               </Zoom>
             </a>
           </Col>
           <Col md={3}>
             <a
-              href="https://github.com/MD-MAFUJUL-HASAN"
+              href="https://github.com/NandiniAgrawal01"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -55,7 +56,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.linkedin.com/in/md-mafujul-hasan/"
+              href="https://www.linkedin.com/in/nandini-agrawal-874132245/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"

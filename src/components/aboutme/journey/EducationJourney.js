@@ -35,7 +35,7 @@ function EducationJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2004 - 2014"
+          date="2018 - 2019"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
@@ -43,47 +43,47 @@ function EducationJourney() {
             SECONDARY SCHOOL CERTIFICATE
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            BOF High School, Gazipur
+            AB School, Navsari
           </h4>
           <p>
-            Studied here from Class 1 to 10th as a part of secondary school
-            Certificate and gain GPA 5 in my SSC Examination.
+            Studied here in class 10th as a part of Secondary School
+            Certificate and gained 76.83 % in my SSC Examination.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2014 - 2018"
+          date="2020 - 2021"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            DIPLOMA IN ENGINEERING
+            Higher Secondary Certificate
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Dhaka Polytechnic Institute, Dhaka
+            AB School, Navsari
           </h4>
           <p>
-            Studied Diploma in Computer Technology from Dhaka Polytechnic
-            institute and gain CGPA 2.98.
+            Studied here in class 12th as a part of Higher Secondary
+            Certificate and gained 76.40 % in my HSC Examination.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2019 - 2023"
+          date="2021 - 2025"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">GRADUATION</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
+            Parul University, Vadodara
           </h4>
           <p>
-            Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
+            Studied Bachelor of Technology degree in Computer Science and
+            Engineering field from Parul University and gained 8.38 CGPA.
           </p>
         </VerticalTimelineElement>
 
